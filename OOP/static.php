@@ -4,7 +4,7 @@ class ContohStatic {
   public static $angka = 1;
 
   public static function halo(){
-    return "Halo " . self::$angka++ . " kali.";
+    return "Hola " . self::$angka++ . " kali.";
   }
 }
 
@@ -13,12 +13,13 @@ class ContohStatic {
 // echo ContohStatic::halo();
 // echo "<hr>";
 // echo ContohStatic::halo();
+// kita ganti hola ges soalnya kepush sama yg salah namain commit
 
 class Contoh {
   public static $angka = 1;
 
   public function halo(){
-    return "Halo " . self::$angka++ . " kali. <br>";
+    return "Hola " . self::$angka++ . " kali. <br>";
   }
 }
 
