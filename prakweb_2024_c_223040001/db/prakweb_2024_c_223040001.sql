@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 11, 2023 at 07:23 AM
+-- Generation Time: Oct 12, 2024 at 03:00 AM
 -- Server version: 8.0.30
--- PHP Version: 8.1.10
+-- PHP Version: 7.3.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -44,7 +44,13 @@ INSERT INTO `buku` (`id_buku`, `judul_buku`, `kategori_buku`, `pembuat_buku`, `d
 (8, 'The Ballad Of Straight Usep', 'Edukasi', 'Carl Johnson', 'Bercerita tentang seorang Pria bernama Usep Tony yang harus hidup menerjang hiruk pikuk dunia yang semakin menggila, dia hidup di lingkungan dimana orientasi seksual disana sangatlah kacau, hanya tony dan beberapa orang saja yang masih berpikiran waras dan menyukai lawan jenis, Tony memiliki tujuan untuk menyadarkan warga kota Liberty City untuk bisa kembali ke jalan yang lurus ', '2023-06-08 19:06:09'),
 (9, 'Petualangan Sherina', 'School', 'Papa T Bob', 'Bercerita tentang Sherina dan Teman temannya yang berpetualang hingga berusaha beba dari penculik yang minta tebusan kepada orang tua temannya yang konglomerat', '2023-06-10 20:06:02'),
 (10, 'Pemrograman Java dengan spring4', 'Edukasi', 'Feri Djuandi', 'Berisi tentang bagaimana memulai sebuah project menggunakan java dengan spring4, penjelasan yang diberikan pada buku ini cukup lengkap dan mudah dipahami', '2023-06-11 00:06:06'),
-(11, 'Lahirnya Tragedi ', 'Drama', 'Friedrich Nietzsche', 'Buku ini tidak membahas sebuah tragedi secara harafiah,hanya sebuah kiasan yang menggambarkan benturan sudut pandang manusia terhadap sebuah seni', '2023-06-11 00:06:58');
+(11, 'Lahirnya Tragedi ', 'Drama', 'Friedrich Nietzsche', 'Buku ini tidak membahas sebuah tragedi secara harafiah,hanya sebuah kiasan yang menggambarkan benturan sudut pandang manusia terhadap sebuah seni', '2023-06-11 00:06:58'),
+(12, 'Mudah belajar Ruby', 'Edukasi', 'Budi Raharjo', 'tutorial mempelajari bahasa ruby', '2024-10-11 19:10:09'),
+(13, 'Cosmopolitan Career Handbook', 'Tabloid', 'Cosmopolitan Inc.', 'Edisi spesial untuk para wanita karier diluar sana ', '2024-10-11 19:10:21'),
+(14, 'Autobild 25 Mei 2008', 'Tabloid', 'Kompas Media', 'Majalah otomotif rilisan tahun 2008 ', '2024-10-11 19:10:50'),
+(15, 'Buku Pintar Seri Senior', 'School', 'Upaya Warga Negara', 'Buku Pintar adalah buku yang berisi tentang semua wawasan umum yang perlu diketahui dan yang terjadi dimasa ini', '2024-10-11 19:10:16'),
+(16, 'Majalah Bobo November 2024', 'Tabloid', 'Kompas Media', 'Majalah bobo', '2024-10-11 19:10:58'),
+(17, 'Ronaldo the Autobiography', 'Drama', 'C. Ronaldo, Acep Hendra', 'Kisah tentang perjuangan cristiano ronaldo', '2024-10-11 19:10:16');
 
 -- --------------------------------------------------------
 
@@ -161,7 +167,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `id_buku` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_buku` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `pinjam`

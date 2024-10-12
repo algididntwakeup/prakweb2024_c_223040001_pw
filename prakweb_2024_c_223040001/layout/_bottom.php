@@ -1,7 +1,7 @@
 </div>
 <footer class="main-footer">
   <div class="footer-left">
-    Copyright &copy; 2023 Muhammad Al Ghifari</a>
+    Copyright &copy; 2023 Muhammad Al Ghifari, Recycled for 2024 Prakweb Assignments.</a>
   </div>
   <div class="footer-right">
 
