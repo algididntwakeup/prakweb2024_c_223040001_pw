@@ -111,7 +111,8 @@ $produk2->setDiskon(50);
 echo $produk2->getHarga();
 echo "<hr>";
 
-// Perbaikan: getPenulis tidak menerima parameter
+// Perbaikan: getPenulis tidak menerima parameter 
+//nambahin comment soalnya salah namain commit
 $produk1->setPenulis("Osama bin Laden");
 echo $produk1->getPenulis();
 
